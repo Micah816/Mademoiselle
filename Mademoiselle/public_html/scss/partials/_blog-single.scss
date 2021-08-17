@@ -1,0 +1,43 @@
+.blog-single-section{
+    margin-top: 20rem;
+    div{
+        margin-bottom: 2rem;
+        h2{
+            font-family: $lato;
+        }
+
+        .blog-single-section-text{
+            font-family:  'Bodoni Book';
+            .category{
+                font-weight: bold;
+            }
+            .date-published{
+                font-style: italic;
+            }
+        } 
+    }
+
+    div{
+        div{
+            p{
+                font-size: 1.6rem;
+                font-family: $rubik;
+                line-height: 2.8rem;
+
+            }
+        }
+    }
+    .tags{
+        p{
+            background-color: #F5F5F5;   
+            font-family:  'Bodoni Book';
+            font-size: 1.6rem;
+            line-height: 2.8rem;
+        }
+        .tags-text{
+            background-color:transparent;
+            font-style: italic;
+        }
+    }
+}
+

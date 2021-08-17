@@ -1,0 +1,67 @@
+.contact{
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    article:first-of-type{
+        padding-right: 10rem;
+    }
+    article{ 
+        text-align: center;
+        .form-control{
+            background-color: rgba(#253d61, 0.02);
+            border:none;
+        }
+        textarea.form-control{       
+        resize: none;
+    } 
+    .error-msg *{
+        color:$danger;
+        font-size: 1.3rem;
+    }
+        .btn{
+            border-radius: 0;
+            border:1px solid $gray-900;
+            text-align: left;
+        }
+    }
+}
+.contact-lead-section{
+    background-color: $primary;
+    .lead-section-content{
+        p,a{
+            color:$gray-900; 
+            font-family: $lato;
+        }
+       
+    }
+}
+
+@media(min-width:320px){
+    .contact{
+        article:first-of-type{
+            padding-right: 6px;
+        }
+        article{
+            .btn{
+                border-radius: 0;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .contact{
+        margin-top: 20rem;
+        article:first-of-type{
+            padding-right: 10rem;
+        }
+        article{
+            text-align: left;
+            h4{ text-align: left;
+            }
+            .btn{
+                text-align: left;
+            }
+        }
+    }
+}

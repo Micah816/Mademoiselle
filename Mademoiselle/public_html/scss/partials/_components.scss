@@ -1,0 +1,19 @@
+
+.underline{
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after{
+    content:'';
+    height: 1px;
+    width:8rem;
+    position: absolute;
+    text-decoration: underline;
+    background:#ECD9D9;
+    left:0;
+    bottom: -20%;
+   
+}
+
+
